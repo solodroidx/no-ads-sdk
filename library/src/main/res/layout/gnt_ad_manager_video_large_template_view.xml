@@ -3,11 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/apk/res-auto">
 
-    <com.google.android.gms.ads.nativead.NativeAdView
-        android:id="@+id/native_ad_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
         <LinearLayout
             android:id="@+id/ad_manager_background"
             android:layout_width="match_parent"
@@ -69,11 +64,6 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
-
-                    <com.google.android.gms.ads.nativead.MediaView
-                        android:id="@+id/ad_manager_media_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
 
                 </RelativeLayout>
 
@@ -174,7 +164,5 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
-
-    </com.google.android.gms.ads.nativead.NativeAdView>
 
 </merge>

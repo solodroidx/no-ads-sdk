@@ -26,7 +26,7 @@
             android:visibility="gone"
             app:gnt_template_type="@layout/gnt_ad_manager_radio_template_view" />
 
-        <com.facebook.ads.NativeAdLayout
+        <RelativeLayout
             android:id="@+id/fan_native_ad_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
